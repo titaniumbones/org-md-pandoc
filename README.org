@@ -3,7 +3,7 @@ This is a very simple exporter for pandoc-flavoured markdown intended for eventu
 The pandoc markdown syntax is documented [[http://pandoc.org/README.html#pandocs-markdown][here]]. Instructions for making slideshows are [[http://pandoc.org/README.html#producing-slide-shows-with-pandoc][here]].  Some obvious improvements to this exporter are:
 
 - make /optional/ (via defcustom and file/headline options) the silly horizontal rule elements that separate headlines inside slideshows
-- support footnotes and citations!
+- support footnotes and citations! Despite worrying about them a lot, I don't really understand org's footnote and citation rules so it's not easy for me to do this yet. 
 - translate org's ~ATTR_HTML~ classes and id's into Pandoc's elegant {#id .class} syntax. 
 
 I'm not likely to work very hard at this, so help is very much welcome.  But if you find this useful, please enjoy!
